@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>countdown page </title>
+</head>
+<body>
+    
+
+<script>
+var seconds=0;
+function displaysec(){
+
+seconds+=1;
+document.getElementById("secondisplay").innerText="close ur eyes for "+seconds+" seconds";
+
+}
+setInterval(displaysec,1000);
+
+function redirectpage(){
+
+window.location="https://www.facebook.com";
+
+}
+setTimeout('redirectpage()',4000);
+
+</script>
+
+    </div>
+
+    <div id="secondisplay"></div>
+</body>
+
+<div class="foot">
+
+Made by <span class="amr">Amr </span> for <span class="tolba"> Tolba</span>
+
+</div>
+</html>
